@@ -1,0 +1,23 @@
+body{
+	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif !important;
+}
+.top{
+	background-color: #e0ebe8;
+	overflow: hidden;
+}
+.logo img{
+	height: 72px;
+}
+.nav-list{
+	margin-top: 40px;
+	position: relative;
+	float: right;
+}
+.nav-list li{
+	float: left;
+	margin-left: 20px;
+	list-style: none;
+}
+.nav-list li a{
+	text-decoration: none;
+}
