@@ -1,5 +1,21 @@
+@font-face { 
+	font-family: brandon-grotesque;
+	src: url('../fonts/Brandon_Grotesque_Regular.otf');
+} 
+@font-face { 
+	font-family: brandon-grotesque-light;
+	src: url('../fonts/Brandon_Grotesque_Light.otf');
+} 
+@font-face { 
+	font-family: brandon-grotesque-medium;
+	src: url('../fonts/Brandon_Grotesque_Medium.otf');
+} 
+
 body{
-	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif !important;
+	font-family: "brandon-grotesque", Microsoft Yahei !important;
+}
+p {
+	font-family: "brandon-grotesque-light" !important;
 }
 .top{
 	background-color: #e0ebe8;
@@ -19,5 +35,295 @@ body{
 	list-style: none;
 }
 .nav-list li a{
+	display: inline-block;
 	text-decoration: none;
+	font-family: brandon-grotesque-light;
+	color: #45b29a;
+	font-weight: 400;
+  	margin: 0 0 0 1em;
+  	font-size: 120%;
+}
+.nav-list li a:hover{
+	color: #21564b
+}
+.nav-list li a:active{
+	color: #21564b
+}
+
+.description {
+	font-family: brandon-grotesque-light;
+	text-align: center;
+  	color: #45b29a;
+  	padding: 1em 0;
+  	font-size: 180%;
+  	font-weight: 400;
+}
+
+.im-christy {
+	max-width: 400px;
+  	margin: 0 auto;
+  	position: relative;
+  	z-index: 990;
+}
+.im-christy img {
+	width: 100%;
+	display: inline-block;
+}
+
+.land {
+	margin: 0 auto;
+	max-width: 800px;
+	overflow: hidden;
+}
+.land img {
+	width: 100%;
+}
+.masthead .container{
+	margin-top: 7%;
+}
+
+.cloud {
+	position: relative;
+  	background: url(../img/cloud.svg) top left no-repeat;
+  	width: 150px;
+  	height: 45px;
+  	-webkit-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+  	z-index: 980;
+}
+
+.left-cloud {
+	left: -2em;
+	bottom: -13em;
+}
+
+.right-cloud {
+	right: -30em;
+	top: -5em;
+}
+
+.hi {
+	z-index: 980;
+  	position: relative;
+  	padding: 3em 0 0;
+  	margin: 0 0 3em;
+}
+.hi article {
+	margin: 0 auto;
+  	max-width: 460px;
+}
+.hi figure {
+	margin: 0 auto;
+  	max-width: 150px;
+}
+
+.hi figure img {
+	width: 100%;
+}
+
+.hi article h3 {
+	color: #45b29a;
+	text-align: center;
+  	padding: .5em 0;
+	font-size: 2em;
+}
+.hi article p {
+	font-size: 1.5em;
+	color: grey;
+	text-align: center;
+	font-family: brandon-grotesque-light;
+}
+.breaker {
+	margin: 0 auto;
+  	max-width: 100px;
+}
+.breaker .line {
+	background-image: url(../img/line-bg.png);
+  	height: 6px;
+  	width: 100%;
+}
+
+article header h2 {
+	color: #1e836c;
+  	text-align: center;
+  	font-size: 3.8em;
+  	font-weight: 400;
+	margin-bottom: 30px;
+}
+article header {
+	padding: 2em 0;
+}
+
+.bubbling-design-icons-vert {
+	-webkit-animation-name: bubblinger-vert-down;
+	-moz-animation-name: bubblinger-vert-down;
+	animation-name: bubblinger-vert-down;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	width: 77px;
+	height: 77px;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(1,0,0,1);
+	-moz-animation-duration: 20s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: cubic-bezier(1,0,0,1);
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(1,0,0,1);
+/*	background-image: url(../img/design-icons-vert.png);*/
+	background: url(../img/design-icons-vert.png) left -152px;
+}
+
+.bubble {
+	background: #F3F2F1;
+	width: 77px;
+	height: 77px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	position: absolute;
+	overflow: hidden;
+	top: 2.6em;
+}
+.what-i-do .right {
+	right:0px;
+}
+
+.what-i-do .left {
+	left: 0px;
+}
+.what-i-do figure {
+	max-width: 150px;
+}
+.what-i-do figure img {
+	width: 100%;
+}
+
+.home-design-info {
+	margin: 0 auto;
+	background-image: url(../img/line-bg.png);
+	background-position: center center;
+	background-repeat: repeat-x;
+	position: relative;
+}
+
+.home-dev-info {
+	margin: 0 auto;
+	background-image: url(../img/line-bg.png);
+	background-position: center center;
+	background-repeat: repeat-x;
+	position: relative;
+	min-height: 155px;
+}
+
+.what-i-do .home-dev-info img {
+	float: right;
+	width: 100%;
+	max-width: 180px;
+	margin-right: -20px;
+}
+
+.deets {
+	padding: 2em 0;
+}
+
+.what-i-do h3 {
+	padding: 0 0 1em;
+  	margin: 0;
+	font-size: 2em;
+  	color: #45b29a;
+	text-align: center;
+}
+.what-i-do p {
+	font-size: 1.5em;
+	color:grey;
+	text-align: center;
+}
+
+.bubbling-dev-icons-vert {
+	-webkit-animation-name: bubblinger-vert-down;
+	-moz-animation-name: bubblinger-vert-down;
+	animation-name: bubblinger-vert-down;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	width: 77px;
+	height: 77px;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(1,0,0,1);
+	-moz-animation-duration: 20s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: cubic-bezier(1,0,0,1);
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(1,0,0,1);
+/*	background-image: url(../img/design-icons-vert.png);*/
+	background: url(../img/dev-icons-vert.png) left top;
+}
+
+footer {
+	background: #c5ded7;
+  	padding: 3em 0;
+	text-align: center;
+}
+.xi{
+	background: #7dcc93;
+	text-align: center;
+	padding: 3.5em 0;
+}
+.arce {
+	background: #f8c687;
+	text-align: center;
+}
+.iris {
+	background: #E29470;
+	text-align: center;
+	padding: 3.5em 0;
+}
+
+h3 a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: brandon-grotesque-light;
+	font-weight: 400;
+  	margin: 0 0 0 1em;
+	color: grey;
+}
+
+.work h3, p{
+	color: white;
+}
+
+.my-btn {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.btn-email {
+	font-size: .8em;
+	text-align: center;
+	display: block;
+	position: relative;
+	background: #45b29a;
+	padding: .75em 2em .75em 3.5em;
+	color: #1b7f69;
+	text-decoration: none;
+	margin: 1.5em 0 0;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-weight: 400;
+	border: 0;
+	font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	text-transform: uppercase;
+}
+.email {
+	position: absolute;
+	height: 15px;
+	width: 24px;
+	left: 11%;
+	top: 33%;
+	background-image: url(../img/mail.png);
 }
