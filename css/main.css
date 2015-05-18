@@ -22,6 +22,13 @@ body{
 p {
 	font-family: "brandon-grotesque-light" !important;
 }
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none !important;
+}
+
 .top{
 	background-color: #e0ebe8;
 	overflow: hidden;
@@ -42,11 +49,11 @@ p {
 .nav-list li a{
 	display: inline-block;
 	text-decoration: none;
-	font-family: brandon-grotesque-light;
+	font-family: brandon-grotesque;
 	color: #45b29a;
 	font-weight: 400;
   	margin: 0 0 0 1em;
-  	font-size: 120%;
+  	font-size: 150%;
 }
 .nav-list li a:hover{
 	color: #21564b
@@ -275,16 +282,18 @@ footer {
 	text-align: center;
 }
 .xi{
-	background: #7dcc93;
+	background: #E29470;
 	text-align: center;
 	padding: 3.5em 0;
 }
 .arce {
 	background: #f8c687;
 	text-align: center;
+	padding: 3.5em 0;
 }
 .iris {
-	background: #E29470;
+	
+	background: #7dcc93;
 	text-align: center;
 	padding: 3.5em 0;
 }
@@ -297,14 +306,21 @@ h3 a{
   	margin: 0 0 0 1em;
 	color: grey;
 }
+h4 a:hover {
+	text-decoration: none;
+}
 
-.work h3, p{
+.work h3, .work h4{
 	color: white;
 }
 
 .my-btn {
 	text-align: center;
-	margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  max-width: 160px;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 40px;
 }
 .btn-email {
 	font-size: .8em;
@@ -329,7 +345,7 @@ h3 a{
 	height: 15px;
 	width: 24px;
 	left: 11%;
-	top: 33%;
+	top: 27%;
 	background-image: url(../img/mail.png);
 }
 
@@ -337,4 +353,36 @@ h3 a{
 	font-family: 'Chalkduster',brandon-grotesque;
 	font-size: 2em;
 	color: #45b29a;
+}
+
+.work img{
+	border: 5px solid white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px gray;
+}
+
+.arce img {
+	border: 25px solid rgb(16, 65, 72);
+	border-radius: 20px;
+	box-shadow: 2px 2px 20px gray;
+	max-width: 600px;
+}
+
+.iris img {
+	border: 15px solid whitesmoke;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px gray;
+	max-width: 250px;
+}
+
+.xi img {
+	border: 15px solid whitesmoke;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px gray;
+	max-width: 250px;	
+}
+
+.bubble,.center{
+	position: relative;
+ 	margin: 0 auto;
 }
