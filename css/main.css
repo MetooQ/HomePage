@@ -65,7 +65,7 @@ p {
 }
 
 .im-christy {
-	max-width: 400px;
+	max-width: 300px;
   	margin: 0 auto;
   	position: relative;
   	z-index: 990;
@@ -331,4 +331,10 @@ h3 a{
 	left: 11%;
 	top: 33%;
 	background-image: url(../img/mail.png);
+}
+
+.im-christy .name {
+	font-family: 'Chalkduster',brandon-grotesque;
+	font-size: 2em;
+	color: #45b29a;
 }
