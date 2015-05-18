@@ -11,6 +11,11 @@
 	src: url('../fonts/Brandon_Grotesque_Medium.otf');
 } 
 
+@font-face {
+	font-family: Chalkduster;
+	src: url('../fonts/Chalkduster.ttf')
+}
+
 body{
 	font-family: "brandon-grotesque", Microsoft Yahei !important;
 }
