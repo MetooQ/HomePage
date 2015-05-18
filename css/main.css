@@ -13,7 +13,7 @@
 
 @font-face {
 	font-family: Chalkduster;
-	src: url('../fonts/Chalkduster.ttf')
+	src: url('../fonts/Chalkduster.ttf');
 }
 
 body{
